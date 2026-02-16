@@ -1,0 +1,35 @@
+{
+  "name": "solana-nft-project",
+  "version": "1.0.0",
+  "description": "Turbin3 NFT Minting and Trading Project",
+  "main": "index.js",
+  "scripts": {
+    "upload-image": "ts-node scripts/nft_image.ts",
+    "upload-metadata": "ts-node scripts/nft_metadata.ts",
+    "mint-nft": "ts-node scripts/nft_mint.ts",
+    "transfer-nft": "ts-node scripts/nft_transfer.ts"
+  },
+  "keywords": [
+    "solana",
+    "nft",
+    "metaplex",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.19.4",
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.2",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.2",
+    "@metaplex-foundation/umi-uploader-irys": "^0.9.2",
+    "@solana/spl-token": "^0.3.9",
+    "@solana/web3.js": "^1.95.0",
+    "bs58": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

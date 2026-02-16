@@ -1,0 +1,34 @@
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist/
+build/
+
+# Environment and secrets
+.env
+*.json
+!package.json
+!tsconfig.json
+
+# Keep wallet as an example but don't commit real keys
+turbin3-wallet.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
